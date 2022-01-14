@@ -13,4 +13,10 @@
     <string name="level0">Coconut is a white rabbit who lives in a peaceful and forgotten
         village, where the trees speak and the stones listen…</string>
 
+    <string name="level01">Now he is looking for something to eat!\nWhere should he go?
+        \nTo the Forest or to the Cave?</string>
+
+    <string name="level1">Inside the forest, coconut finds three dark strawberries and one red strawberry.
+      What do you prefer?</string>
+
 </resources>
