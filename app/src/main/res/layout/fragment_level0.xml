@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    tools:context=".Level0Fragment">
+    tools:context=".game.Level0Fragment">
 
     <include
         android:id="@+id/include"

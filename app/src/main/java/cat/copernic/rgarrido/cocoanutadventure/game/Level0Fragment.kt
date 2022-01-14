@@ -1,4 +1,4 @@
-package cat.copernic.rgarrido.cocoanutadventure
+package cat.copernic.rgarrido.cocoanutadventure.game
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,8 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import cat.copernic.rgarrido.cocoanutadventure.R
 import cat.copernic.rgarrido.cocoanutadventure.databinding.FragmentLevel0Binding
-import cat.copernic.rgarrido.cocoanutadventure.databinding.FragmentStartBinding
 
 class Level0Fragment : Fragment() {
 

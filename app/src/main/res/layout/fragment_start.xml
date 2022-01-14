@@ -6,8 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0B0A0A"
-    app:layoutDescription="@xml/fragment_start_scene"
-    tools:context=".StartFragment">
+    tools:context=".screens.StartFragment">
 
     <Button
         android:id="@+id/btOptions"

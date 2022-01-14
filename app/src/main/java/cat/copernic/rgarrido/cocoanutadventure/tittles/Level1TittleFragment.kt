@@ -1,4 +1,4 @@
-package cat.copernic.rgarrido.cocoanutadventure
+package cat.copernic.rgarrido.cocoanutadventure.tittles
 
 import android.animation.ObjectAnimator
 import android.os.Bundle
@@ -7,8 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import cat.copernic.rgarrido.cocoanutadventure.R
 import cat.copernic.rgarrido.cocoanutadventure.databinding.FragmentLevel1TittleBinding
-import cat.copernic.rgarrido.cocoanutadventure.databinding.FragmentStage0TittleBinding
 
 
 class Level1TittleFragment : Fragment() {

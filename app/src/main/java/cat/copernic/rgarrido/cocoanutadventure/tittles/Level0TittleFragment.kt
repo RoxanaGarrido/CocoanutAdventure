@@ -1,4 +1,4 @@
-package cat.copernic.rgarrido.cocoanutadventure
+package cat.copernic.rgarrido.cocoanutadventure.tittles
 
 import android.animation.ObjectAnimator
 import android.os.Bundle
@@ -7,12 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import cat.copernic.rgarrido.cocoanutadventure.R
 import cat.copernic.rgarrido.cocoanutadventure.databinding.FragmentStage0TittleBinding
-import cat.copernic.rgarrido.cocoanutadventure.databinding.FragmentStartBinding
-import java.util.*
-import kotlin.concurrent.schedule
-import kotlin.concurrent.timer
-import java.util.TimerTask as TimerTask
 
 class Level0TittleFragment : Fragment() {
 

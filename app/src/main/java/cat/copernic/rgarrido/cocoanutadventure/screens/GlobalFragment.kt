@@ -1,10 +1,11 @@
-package cat.copernic.rgarrido.cocoanutadventure
+package cat.copernic.rgarrido.cocoanutadventure.screens
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import cat.copernic.rgarrido.cocoanutadventure.R
 
 
 class GlobalFragment : Fragment() {

@@ -5,11 +5,11 @@
     android:id="@+id/frameLayout4"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Level1TittleFragment"
+    tools:context=".tittles.Level1TittleFragment"
     android:background="#000000">
 
     <TextView
-        android:id="@+id/level1_tittle"
+        android:id="@+id/level2_tittle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/press_start_2p"

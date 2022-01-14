@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/startFragment"
-        android:name="cat.copernic.rgarrido.cocoanutadventure.StartFragment"
+        android:name="cat.copernic.rgarrido.cocoanutadventure.screens.StartFragment"
         android:label="fragment_start"
         tools:layout="@layout/fragment_start" >
         <action
@@ -27,11 +27,11 @@
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="cat.copernic.rgarrido.cocoanutadventure.SettingsFragment"
+        android:name="cat.copernic.rgarrido.cocoanutadventure.screens.SettingsFragment"
         android:label="SettingsFragment" />
     <fragment
         android:id="@+id/stage0TittleFragment"
-        android:name="cat.copernic.rgarrido.cocoanutadventure.Level0TittleFragment"
+        android:name="cat.copernic.rgarrido.cocoanutadventure.tittles.Level0TittleFragment"
         android:label="Stage0TittleFragment" >
         <action
             android:id="@+id/action_stage0TittleFragment_to_level0Fragment"
@@ -43,7 +43,7 @@
     </fragment>
     <fragment
         android:id="@+id/level0Fragment"
-        android:name="cat.copernic.rgarrido.cocoanutadventure.Level0Fragment"
+        android:name="cat.copernic.rgarrido.cocoanutadventure.game.Level0Fragment"
         android:label="fragment_level0"
         tools:layout="@layout/fragment_level0" >
         <action
@@ -56,7 +56,7 @@
     </fragment>
     <fragment
         android:id="@+id/level0Fragment1"
-        android:name="cat.copernic.rgarrido.cocoanutadventure.Level0Fragment1"
+        android:name="cat.copernic.rgarrido.cocoanutadventure.game.Level0Fragment1"
         android:label="fragment_level01"
         tools:layout="@layout/fragment_level01" >
         <action
@@ -66,10 +66,17 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_right"
             app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/action_level0Fragment1_to_level2TittleFragment"
+            app:destination="@id/level2TittleFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
     </fragment>
     <fragment
         android:id="@+id/level1TittleFragment"
-        android:name="cat.copernic.rgarrido.cocoanutadventure.Level1TittleFragment"
+        android:name="cat.copernic.rgarrido.cocoanutadventure.tittles.Level1TittleFragment"
         android:label="fragment_level1_tittle"
         tools:layout="@layout/fragment_level1_tittle" >
         <action
@@ -82,7 +89,12 @@
     </fragment>
     <fragment
         android:id="@+id/toForestFragment2"
-        android:name="cat.copernic.rgarrido.cocoanutadventure.ToForestFragment"
+        android:name="cat.copernic.rgarrido.cocoanutadventure.game.ToForestFragment"
         android:label="fragment_to_forest"
         tools:layout="@layout/fragment_to_forest" />
+    <fragment
+        android:id="@+id/level2TittleFragment"
+        android:name="cat.copernic.rgarrido.cocoanutadventure.tittles.Level2TittleFragment"
+        android:label="fragment_level2_tittle"
+        tools:layout="@layout/fragment_level2_tittle" />
 </navigation>

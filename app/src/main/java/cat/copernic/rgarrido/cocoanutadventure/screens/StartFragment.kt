@@ -1,4 +1,4 @@
-package cat.copernic.rgarrido.cocoanutadventure
+package cat.copernic.rgarrido.cocoanutadventure.screens
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.preference.PreferenceManager
+import cat.copernic.rgarrido.cocoanutadventure.R
 import cat.copernic.rgarrido.cocoanutadventure.databinding.FragmentStartBinding
 
 class StartFragment : Fragment() {
