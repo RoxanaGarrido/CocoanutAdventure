@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="cat.copernic.rgarrido.cocoanutadventure.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/action_startFragment_to_stage0TittleFragment"
+            app:destination="@id/stage0TittleFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="cat.copernic.rgarrido.cocoanutadventure.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/stage0TittleFragment"
+        android:name="cat.copernic.rgarrido.cocoanutadventure.Level0TittleFragment"
+        android:label="Stage0TittleFragment" >
+        <action
+            android:id="@+id/action_stage0TittleFragment_to_level0Fragment"
+            app:destination="@id/level0Fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/level0Fragment"
+        android:name="cat.copernic.rgarrido.cocoanutadventure.Level0Fragment"
+        android:label="fragment_level0"
+        tools:layout="@layout/fragment_level0" >
+        <action
+            android:id="@+id/action_level0Fragment_to_level0Fragment1"
+            app:destination="@id/level0Fragment1"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/level0Fragment1"
+        android:name="cat.copernic.rgarrido.cocoanutadventure.Level0Fragment1"
+        android:label="fragment_level01"
+        tools:layout="@layout/fragment_level01" >
+        <action
+            android:id="@+id/action_level0Fragment1_to_level1TittleFragment"
+            app:destination="@id/level1TittleFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/level1TittleFragment"
+        android:name="cat.copernic.rgarrido.cocoanutadventure.Level1TittleFragment"
+        android:label="fragment_level1_tittle"
+        tools:layout="@layout/fragment_level1_tittle" >
+        <action
+            android:id="@+id/action_level1TittleFragment_to_toForestFragment"
+            app:destination="@id/toForestFragment2"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/toForestFragment2"
+        android:name="cat.copernic.rgarrido.cocoanutadventure.ToForestFragment"
+        android:label="fragment_to_forest"
+        tools:layout="@layout/fragment_to_forest" />
+</navigation>
